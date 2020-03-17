@@ -1,0 +1,43 @@
+.navbar {
+    margin-top:-1px;
+    padding:unset;
+    width:100%;
+    position: sticky;
+    box-shadow: 0px 10px 17px -10px #eeecec;
+
+    .navbar-inner {
+        margin:0 auto;
+        max-width:1000px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            padding:1rem;
+            text-decoration: none;
+            color:#222;
+            transition: 0.5s;
+
+            &:visited {
+                color:inherit;
+            }
+
+            &:hover {
+                color:#3690df;
+                transition: 0.5s;
+            }
+        }
+
+        .itemlist {
+
+            li.nav-item {
+                display:inline-block;
+
+                &:not(:last-child) {
+                    margin-right:1rem;
+                }
+            }
+        }
+    }
+}

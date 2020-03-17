@@ -1,0 +1,23 @@
+$border-radius: 0.25rem;
+
+.work-item {
+    border:1px solid lightgrey;
+    border-radius:$border-radius;
+
+    .head {
+        width:100%;
+
+        > img {
+            border-radius:$border-radius $border-radius 0 0;
+            width:100%;
+        }
+    }
+
+    .body {
+        padding:1rem 1rem 2rem 1rem;
+
+        .title {
+            margin-bottom: 0.5rem;
+        }
+    }
+}

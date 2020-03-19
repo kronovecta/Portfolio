@@ -1,0 +1,29 @@
+$btn-main-color: white;
+$btn-main-background-medium: hsl(216.4, 72.7%, 45%);
+$btn-main-background-dark: hsl(216.4, 72.7%, 40%);
+$btn-main-background-darkest: hsl(216.4, 72.7%, 38%);
+
+.btn {
+    padding:0.5rem 0.75rem;
+    border-radius: 0.15rem;
+}
+
+.btn-main {
+    background:$btn-main-background-medium;
+    color:$btn-main-color;
+    transition: 0.25s;
+
+    &:hover {
+        background:$btn-main-background-dark;
+        transition: 0.25s;
+    }
+
+    &:active {
+        background:$btn-main-background-darkest;
+    }
+
+    &:visited {
+        background:unset;
+        color:$btn-main-color;
+    }
+}

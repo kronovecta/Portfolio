@@ -1,5 +1,6 @@
 import { AppProps } from 'next/app'
-import '../static/global.scss';
+import '../public/global.scss';
+import '../public/buttons.scss';
 
 function Portfolio({ Component, pageProps }: AppProps) {
   return <Component  {...pageProps} />

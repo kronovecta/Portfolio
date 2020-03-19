@@ -1,7 +1,8 @@
 import * as React from 'react'
 import Head from 'next/head'
 import Navbar from './navbar/navbar'
-import '../static/global.scss'
+import '../public/global.scss'
+import '../public/buttons.scss'
 import Footer from './footer/footer';
 
 type Props = {
@@ -10,7 +11,7 @@ type Props = {
 }
 const Layout: React.FunctionComponent<Props> = ({
   children,
-  title = 'This is the default title', container }) => (
+  title = 'Home | Robert Nordgren', container }) => (
     <div className="app">
       <Head>
         <title>{title}</title>

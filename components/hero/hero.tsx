@@ -10,8 +10,13 @@ class Hero extends React.Component {
                         <img className="portrait-img" src="/static/portrait.png"></img>
                     </div>
                     <div className="intro-text">
-                        <h1 className="title">Robert Nordgren</h1>
-                        <pre>I like to build web apps and explore new technologies.</pre>
+                        <h1 className="title">I am Robert Nordgren</h1>
+                        <div className="flex-row">
+                            <pre>I like to build web apps and explore new technologies.</pre>
+                        </div>
+                        <div className="flex-row">
+                            <a className="btn btn-main" href="mailto:info@robertnordgren.se">Contact me</a>
+                        </div>
                     </div>
                 </div>
             </div>
